@@ -1,0 +1,82 @@
+html,body{
+    height: 100%;
+}
+.container{
+    padding-top: 50px;
+    width: 100%;
+    height: 100%;
+    background-color: #f8f9fc;
+    position: relative;
+}
+.login-grbox{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 480px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    padding: 0 46px 0 46px;
+}
+.login-maintext{
+    padding-top: 50px;
+    text-align: center;
+}
+.login-maintext > h1{
+    font-size: 28px;
+    font-weight: bold;
+    color: #222;
+}
+.login-maintext > p{
+    font-size: 16px;
+    color: #626262;
+    margin-top: 16px;
+}
+.login-box{
+    margin-top: 44px;
+}
+.login-box > form label{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 6px;
+    font-size: 16px;
+    color: #222;
+}
+.login-box > form > input{
+    width: 100%;
+    height: 48px;
+    border-radius: 5px;
+    border: 1px solid #d7d7d7;
+    padding-left: 10px;
+}
+.login-box > form > button{
+    width: 100%;
+    height: 48px;
+    border: none;
+    background-color: #358fff;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.login-info{
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+.id-save{
+    float: left;
+}
+.id-save label{
+    font-size: 14px;
+    position: relative;
+    bottom: 1px;
+}
+.user-find{
+    float: right;
+}
+.user-find > li{
+    font-size: 14px;
+    float: left;
+    margin-left: 6px;
+}
